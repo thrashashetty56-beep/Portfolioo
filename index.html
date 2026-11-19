@@ -1,0 +1,1869 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thrasha | MCA Portfolio | Poornaprajna Institute of Management</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Portfolio of Thrasha, MCA student at PIM Udupi specializing in software development. Explore academic education, verified skills, labs, and learning roadmap.">
+  <meta name="keywords" content="Thrasha, MCA, Poornaprajna Institute of Management, PIM Udupi, Software Developer, Web Developer, C, Java, Python, Karnataka">
+  <meta name="author" content="Thrasha">
+
+  <!-- OpenGraph / Social Meta Tags -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Thrasha | MCA Portfolio | Poornaprajna Institute of Management">
+  <meta property="og:description" content="Portfolio of Thrasha, MCA student at PIM Udupi specializing in software development.">
+  <meta property="og:locale" content="en_IN">
+  <meta property="og:image" content="assets/thrasha.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="assets/thrasha.jpg">
+  
+  <!-- Favicon (Inline SVG Data URI) -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%232563eb'/><text x='50' y='68' font-family='monospace' font-size='56' font-weight='bold' fill='%23ffffff' text-anchor='middle'>T</text></svg>">
+
+  <!-- Core Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Accessible Skip Navigation Link -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- =========================================================================
+       1. Top Navigation Header
+       ========================================================================= -->
+  <header class="site-header" id="site-header">
+    <div class="container header-container">
+      <a href="#hero" class="brand-mark" aria-label="Thrasha Portfolio Home">
+        <span class="brand-glyph" aria-hidden="true">&lt;T/&gt;</span>
+        <span class="brand-name">Thrasha</span>
+        <span class="brand-badge">MCA '28</span>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav class="desktop-nav" aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="#hero" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#learning-journey" class="nav-link">Learning Journey</a></li>
+          <li><a href="#honors" class="nav-link">Honors</a></li>
+          <li><a href="#interests" class="nav-link">Interests</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Header Action Controls -->
+      <div class="header-actions">
+        <!-- Resume Trigger -->
+        <button type="button" class="btn btn-secondary btn-sm open-resume-btn" aria-label="View Academic Resume">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+            <polyline points="14 2 14 8 20 8"></polyline>
+            <line x1="16" y1="13" x2="8" y2="13"></line>
+            <line x1="16" y1="17" x2="8" y2="17"></line>
+            <polyline points="10 9 9 9 8 9"></polyline>
+          </svg>
+          <span>Resume</span>
+        </button>
+
+        <!-- Theme Toggle Button -->
+        <button type="button" id="theme-toggle-btn" class="theme-toggle-btn" aria-label="Toggle light or dark theme">
+          <!-- Sun Icon (Shown in Dark Mode) -->
+          <svg id="theme-icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <!-- Moon Icon (Shown in Light Mode) -->
+          <svg id="theme-icon-moon" style="display:none;" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <!-- Mobile Drawer Toggle Button -->
+        <button type="button" id="mobile-menu-btn" class="mobile-menu-btn" aria-label="Open mobile navigation menu" aria-expanded="false" aria-controls="mobile-drawer">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Responsive Mobile Drawer Navigation -->
+    <div id="mobile-drawer" class="mobile-drawer" aria-label="Mobile Navigation">
+      <ul class="mobile-nav-links">
+        <li><a href="#hero" class="mobile-nav-link">Home</a></li>
+        <li><a href="#about" class="mobile-nav-link">About</a></li>
+        <li><a href="#education" class="mobile-nav-link">Education</a></li>
+        <li><a href="#skills" class="mobile-nav-link">Technical Skills</a></li>
+        <li><a href="#learning-journey" class="mobile-nav-link">Learning Journey</a></li>
+        <li><a href="#honors" class="mobile-nav-link">Honors & Awards</a></li>
+        <li><a href="#interests" class="mobile-nav-link">Interests & Roles</a></li>
+        <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+      </ul>
+      <button type="button" class="btn btn-primary open-resume-btn" style="width: 100%;">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+          <polyline points="14 2 14 8 20 8"></polyline>
+          <line x1="16" y1="13" x2="8" y2="13"></line>
+          <line x1="16" y1="17" x2="8" y2="17"></line>
+        </svg>
+        <span>View Academic Resume</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- =========================================================================
+       Main Content Container
+       ========================================================================= -->
+  <main id="main-content">
+
+    <!-- =========================================================================
+         2. Hero Showcase Section (Text-Focused Introduction)
+         ========================================================================= -->
+    <section id="hero" class="hero-section" aria-labelledby="hero-title">
+      <div class="container">
+        <div class="hero-grid">
+          <!-- Text Introduction -->
+          <div class="hero-content">
+            <div class="hero-pill-row">
+              <span class="badge badge-blue">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                  <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                </svg>
+                MCA Candidate • 2026 – 2028
+              </span>
+              <span class="hero-location-pill">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+                Udupi, Karnataka, India
+              </span>
+            </div>
+
+            <h1 id="hero-title" class="hero-title">
+              Hi, I'm <span class="name-gradient">Thrasha</span>
+            </h1>
+
+            <div class="hero-headline">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polyline points="16 18 22 12 16 6"></polyline>
+                <polyline points="8 6 2 12 8 18"></polyline>
+              </svg>
+              <span>First year MCA student</span>
+            </div>
+
+            <p class="hero-bio">
+              Aspiring Software Developer passionate about programming languages, web engineering, and foundational computing. Currently advancing practical software development skills through academic rigor and real-world initiatives.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#learning-journey" class="btn btn-primary">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                </svg>
+                <span>Explore Learning Journey</span>
+              </a>
+              <a href="#contact" class="btn btn-secondary">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+                <span>Get in Touch</span>
+              </a>
+              <button type="button" class="btn btn-secondary open-resume-btn">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                  <polyline points="7 10 12 15 17 10"></polyline>
+                  <line x1="12" y1="15" x2="12" y2="3"></line>
+                </svg>
+                <span>Curriculum Vitae</span>
+              </button>
+            </div>
+
+            <!-- Quick Meta Links -->
+            <div class="hero-quick-meta">
+              <a href="mailto:thrashashetty56@gmail.com" class="meta-link" title="Send direct email to Thrasha">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+                <span>thrashashetty56@gmail.com</span>
+              </a>
+              <a href="tel:9353178498" class="meta-link" title="Call Thrasha">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                </svg>
+                <span>+91 9353178498</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Hero Visual Showcase (Portrait Photo & Code Terminal) -->
+          <div class="hero-visual">
+            <div class="hero-visual-card">
+              <!-- Visual Tabs Header -->
+              <div class="hero-visual-header">
+                <div class="terminal-dots">
+                  <span class="dot dot-red"></span>
+                  <span class="dot dot-yellow"></span>
+                  <span class="dot dot-green"></span>
+                </div>
+                <div class="hero-visual-tabs" role="tablist" aria-label="Profile Showcase View">
+                  <button type="button" class="visual-tab-btn active" id="tab-portrait-btn" role="tab" aria-selected="true" aria-controls="view-portrait">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                      <circle cx="12" cy="7" r="4"></circle>
+                    </svg>
+                    <span>Portrait View</span>
+                  </button>
+                  <button type="button" class="visual-tab-btn" id="tab-code-btn" role="tab" aria-selected="false" aria-controls="view-code">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <polyline points="16 18 22 12 16 6"></polyline>
+                      <polyline points="8 6 2 12 8 18"></polyline>
+                    </svg>
+                    <span>profile.json</span>
+                  </button>
+                </div>
+                <span class="badge badge-basic">MCA '28</span>
+              </div>
+
+              <!-- View 1: Professional Portrait Showcase (Default) -->
+              <div class="hero-visual-view" id="view-portrait" role="tabpanel" aria-labelledby="tab-portrait-btn">
+                <div class="portrait-wrapper">
+                  <img src="assets/thrasha.jpg" alt="Thrasha - First-Year MCA student at Poornaprajna Institute of Management, Udupi" class="hero-portrait-img" width="340" height="400" loading="eager">
+                  
+                  <!-- Floating Accent Badges -->
+                  <div class="floating-badge badge-top-right">
+                    <span class="badge-emoji" aria-hidden="true">🏆</span>
+                    <div class="floating-badge-text">
+                      <span class="floating-title">2nd Place</span>
+                      <span class="floating-sub">Sahyadri Whiz Quiz '26</span>
+                    </div>
+                  </div>
+
+                  <div class="floating-badge badge-bottom-left">
+                    <span class="badge-emoji" aria-hidden="true">🎓</span>
+                    <div class="floating-badge-text">
+                      <span class="floating-title">PIM Udupi</span>
+                      <span class="floating-sub">MCA (2026 – 2028)</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="portrait-caption-bar">
+                  <div class="status-indicator">
+                    <span class="pulse-dot"></span>
+                    <span>First Year MCA Scholar • Udupi</span>
+                  </div>
+                  <span class="caption-tag">Poornaprajna Institute</span>
+                </div>
+              </div>
+
+              <!-- View 2: Developer Terminal View -->
+              <div class="hero-visual-view" id="view-code" role="tabpanel" aria-labelledby="tab-code-btn" style="display: none;">
+                <div class="terminal-body">
+                  <span class="code-line"><span class="code-punct">{</span></span>
+                  <span class="code-line">&nbsp;&nbsp;<span class="code-prop">"candidate"</span><span class="code-punct">:</span> <span class="code-string">"Thrasha"</span><span class="code-punct">,</span></span>
+                  <span class="code-line">&nbsp;&nbsp;<span class="code-prop">"degree"</span><span class="code-punct">:</span> <span class="code-string">"Master of Computer Applications (MCA)"</span><span class="code-punct">,</span></span>
+                  <span class="code-line">&nbsp;&nbsp;<span class="code-prop">"institution"</span><span class="code-punct">:</span> <span class="code-string">"Poornaprajna Institute of Management"</span><span class="code-punct">,</span></span>
+                  <span class="code-line">&nbsp;&nbsp;<span class="code-prop">"location"</span><span class="code-punct">:</span> <span class="code-string">"Udupi, Karnataka"</span><span class="code-punct">,</span></span>
+                  <span class="code-line">&nbsp;&nbsp;<span class="code-prop">"tenure"</span><span class="code-punct">:</span> <span class="code-string">"2026 – 2028 (Pursuing)"</span><span class="code-punct">,</span></span>
+                  <span class="code-line">&nbsp;&nbsp;<span class="code-prop">"verified_expertise"</span><span class="code-punct">:</span> <span class="code-punct">{</span></span>
+                  <span class="code-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-prop">"core_languages"</span><span class="code-punct">:</span> <span class="code-punct">[</span><span class="code-string">"C"</span><span class="code-punct">,</span> <span class="code-string">"C++"</span><span class="code-punct">,</span> <span class="code-string">"Java"</span><span class="code-punct">,</span> <span class="code-string">"JavaScript"</span><span class="code-punct">,</span> <span class="code-string">"PHP"</span><span class="code-punct">,</span> <span class="code-string">"C#"</span><span class="code-punct">],</span></span>
+                  <span class="code-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-prop">"web_fundamentals"</span><span class="code-punct">:</span> <span class="code-punct">[</span><span class="code-string">"HTML"</span><span class="code-punct">,</span> <span class="code-string">"CSS"</span><span class="code-punct">],</span></span>
+                  <span class="code-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-prop">"level_standard"</span><span class="code-punct">:</span> <span class="code-string">"Basic (Faithfully Assessed)"</span></span>
+                  <span class="code-line">&nbsp;&nbsp;<span class="code-punct">},</span></span>
+                  <span class="code-line">&nbsp;&nbsp;<span class="code-prop">"target_roles"</span><span class="code-punct">:</span> <span class="code-punct">[</span><span class="code-string">"Software Developer"</span><span class="code-punct">,</span> <span class="code-string">"Web Developer"</span><span class="code-punct">]</span></span>
+                  <span class="code-line"><span class="code-punct">}</span></span>
+                </div>
+                <div class="terminal-footer">
+                  <span class="status-indicator">
+                    <span class="pulse-dot"></span>
+                    <span>Active First Year MCA Student</span>
+                  </span>
+                  <span>UTF-8 • Verified Record</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         Quick Metrics / Academic Highlights Strip
+         ========================================================================= -->
+    <div class="stats-bar" aria-label="Key Academic Stats">
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat-item">
+            <span class="stat-val">2026 – 2028</span>
+            <span class="stat-label">MCA Program Tenure</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-val">PIM Udupi</span>
+            <span class="stat-label">Poornaprajna Institute of Management</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-val">8 Languages</span>
+            <span class="stat-label">Evaluated Core &amp; Web Fundamentals</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-val">2nd Place</span>
+            <span class="stat-label">Sahyadri Whiz Quiz 2026</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- =========================================================================
+         3. About Me & Academic Background Section
+         ========================================================================= -->
+    <section id="about" class="section" aria-labelledby="about-title">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Academic Profile &amp; Background</span>
+          <h2 id="about-title" class="section-title">About Me</h2>
+          <p class="section-subtitle">
+            Cultivating solid computer science fundamentals, algorithmic thinking, and modern software development practices.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Narrative Column -->
+          <div class="card about-narrative">
+            <div class="about-narrative-header">
+              <img src="assets/thrasha.jpg" alt="Thrasha Portrait" class="about-avatar-img" width="58" height="72">
+              <div>
+                <h3 style="font-size: 1.25rem; font-weight: 700; color: var(--text-highlight);">
+                  Engineering Mindset &amp; Academic Drive
+                </h3>
+                <span class="about-avatar-sub">First-Year Scholar • PIM Udupi</span>
+              </div>
+            </div>
+            <p>
+              I am a first-year Master of Computer Applications (MCA) scholar at <strong>Poornaprajna Institute of Management (PIM)</strong>, located in the educational hub of Udupi, Karnataka. My academic focus centers on computer applications, software engineering principles, and core systems architecture.
+            </p>
+            <p>
+              I believe in strong computational foundations before frameworks. Through laboratory work at PIM and personal deep-dives, I am continuously testing and strengthening my understanding of programming languages (C, C++, Java, JavaScript, PHP, C#), relational databases, and accessible web standards.
+            </p>
+            <p>
+              Whether analyzing data structures or constructing responsive user interfaces, I value clean code, intellectual honesty, and consistent daily progress.
+            </p>
+
+            <div class="about-meta-grid">
+              <div class="about-meta-box">
+                <span class="about-meta-label">Natural Languages</span>
+                <span class="about-meta-val">English, Kannada</span>
+              </div>
+              <div class="about-meta-box">
+                <span class="about-meta-label">Current Academic Base</span>
+                <span class="about-meta-val">Udupi, Karnataka</span>
+              </div>
+              <div class="about-meta-box">
+                <span class="about-meta-label">Extracurriculars</span>
+                <span class="about-meta-val">Dance, Podcasts</span>
+              </div>
+              <div class="about-meta-box">
+                <span class="about-meta-label">Integrity Standard</span>
+                <span class="about-meta-val">100% Verified Levels</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Academic Education Column -->
+          <div id="education" class="card education-card">
+            <div class="edu-header">
+              <div>
+                <span class="badge badge-green">Currently Pursuing</span>
+                <h3 class="edu-degree" style="margin-top: 8px;">Master of Computer Applications (MCA)</h3>
+                <div class="edu-school">Poornaprajna Institute of Management (PIM)</div>
+                <div class="edu-place">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                  <span>Udupi, Karnataka</span>
+                </div>
+              </div>
+              <span class="edu-dates">2026 – 2028</span>
+            </div>
+
+            <div class="edu-specs">
+              <div class="spec-item">
+                <strong>Specialization:</strong>
+                <span>Computer Applications &amp; Software Development</span>
+              </div>
+              <div class="spec-item">
+                <strong>Current Status:</strong>
+                <span>First-Year Postgraduate Student</span>
+              </div>
+              <div class="spec-item">
+                <strong>Curricular Focus:</strong>
+                <span>Data Structures, Algorithms, OOP, Database Systems, Web Engineering</span>
+              </div>
+            </div>
+
+            <div>
+              <span style="font-size: 0.82rem; font-weight: 600; text-transform: uppercase; color: var(--text-muted); display: block; margin-bottom: 8px;">
+                Active Academic Disciplines
+              </span>
+              <div class="edu-tags">
+                <span class="badge badge-blue">Object-Oriented Programming</span>
+                <span class="badge badge-blue">Data Structures &amp; Algorithms</span>
+                <span class="badge badge-blue">Database Management (SQL)</span>
+                <span class="badge badge-blue">Web Technologies</span>
+                <span class="badge badge-blue">Problem Solving</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         4. Technical Skills & Programming Proficiency
+         ========================================================================= -->
+    <section id="skills" class="section" aria-labelledby="skills-title">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Competencies &amp; Verification</span>
+          <h2 id="skills-title" class="section-title">Technical Skills &amp; Programming Proficiency</h2>
+          <p class="section-subtitle">
+            All programming languages and technologies are presented with exact, verified self-assessed levels. Each has been individually validated.
+          </p>
+        </div>
+
+        <!-- Filter Controls & Integrity Legend -->
+        <div class="skills-controls">
+          <div class="filter-pills" role="tablist" aria-label="Skills filter">
+            <button type="button" class="filter-pill skill-filter-pill active" data-skill-filter="all">All Disciplines</button>
+            <button type="button" class="filter-pill skill-filter-pill" data-skill-filter="core-lang">Core Languages</button>
+            <button type="button" class="filter-pill skill-filter-pill" data-skill-filter="web-fund">Web Fundamentals</button>
+            <button type="button" class="filter-pill skill-filter-pill" data-skill-filter="backend-db">Backend &amp; Databases</button>
+            <button type="button" class="filter-pill skill-filter-pill" data-skill-filter="tools-cloud">Tools &amp; Cloud</button>
+            <button type="button" class="filter-pill skill-filter-pill" data-skill-filter="data-science">Data Science &amp; AI</button>
+            <button type="button" class="filter-pill skill-filter-pill" data-skill-filter="core-cs">Core CS Concepts</button>
+          </div>
+
+          <div class="skills-integrity-notice">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="10"></circle>
+              <line x1="12" y1="16" x2="12" y2="12"></line>
+              <line x1="12" y1="8" x2="12.01" y2="8"></line>
+            </svg>
+            <span>Level Legend: <strong>Basic</strong> (Foundational Academic Competency)</span>
+          </div>
+        </div>
+
+        <!-- Category 1: Core Programming Languages -->
+        <div class="skills-category-group" data-category="core-lang">
+          <h3 class="skills-category-title">
+            <span>Core Programming Languages</span>
+            <span class="category-count">6 Languages</span>
+          </h3>
+          <div class="skills-grid">
+            <!-- C -->
+            <div class="skill-card">
+              <div class="skill-card-top">
+                <div class="skill-name-wrap">
+                  <div class="skill-icon-glyph">C</div>
+                  <h4 class="skill-name">C</h4>
+                </div>
+                <span class="badge badge-basic">Level: Basic</span>
+              </div>
+              <div class="skill-meter-wrap">
+                <div class="skill-meter-label-row">
+                  <span>Proficiency Indicator</span>
+                  <span>Basic / 40%</span>
+                </div>
+                <div class="meter-segments" aria-hidden="true">
+                  <div class="meter-segment filled"></div>
+                  <div class="meter-segment filled"></div>
+                  <div class="meter-segment"></div>
+                  <div class="meter-segment"></div>
+                  <div class="meter-segment"></div>
+                </div>
+              </div>
+              <p class="skill-note">Syntax foundations, pointers, memory allocation, procedural structure, and standard I/O.</p>
+            </div>
+
+            <!-- C++ -->
+            <div class="skill-card">
+              <div class="skill-card-top">
+                <div class="skill-name-wrap">
+                  <div class="skill-icon-glyph">C++</div>
+                  <h4 class="skill-name">C++</h4>
+                </div>
+                <span class="badge badge-basic">Level: Basic</span>
+              </div>
+              <div class="skill-meter-wrap">
+                <div class="skill-meter-label-row">
+                  <span>Proficiency Indicator</span>
+                  <span>Basic / 40%</span>
+                </div>
+                <div class="meter-segments" aria-hidden="true">
+                  <div class="meter-segment filled"></div>
+                  <div class="meter-segment filled"></div>
+                  <div class="meter-segment"></div>
+                  <div class="meter-segment"></div>
+                  <div class="meter-segment"></div>
+                </div>
+              </div>
+              <p class="skill-note">Object-oriented paradigms, classes, references, standard template library basics.</p>
+            </div>
+
+            <!-- Java -->
+            <div class="skill-card">
+              <div class="skill-card-top">
+                <div class="skill-name-wrap">
+                  <div class="skill-icon-glyph">Ja</div>
+                  <h4 class="skill-name">Java</h4>
+                </div>
+                <span class="badge badge-basic">Level: Basic</span>
+              </div>
+              <div class="skill-meter-wrap">
+                <div class="skill-meter-label-row">
+                  <span>Proficiency Indicator</span>
+                  <span>Basic / 40%</span>
+                </div>
+                <div class="meter-segments" aria-hidden="true">
+                  <div class="meter-segment filled"></div>
+                  <div class="meter-segment filled"></div>
+                  <div class="meter-segment"></div>
+                  <div class="meter-segment"></div>
+                  <div class="meter-segment"></div>
+                </div>
+              </div>
+              <p class="skill-note">Core OOP concepts, inheritance, abstraction, interfaces, exception handling, and JVM runtime.</p>
+            </div>
+
+            <!-- JavaScript -->
+            <div class="skill-card">
+              <div class="skill-card-top">
+                <div class="skill-name-wrap">
+                  <div class="skill-icon-glyph">JS</div>
+                  <h4 class="skill-name">JavaScript</h4>
+                </div>
+                <span class="badge badge-basic">Level: Basic</span>
+              </div>
+              <div class="skill-meter-wrap">
+                <div class="skill-meter-label-row">
+                  <span>Proficiency Indicator</span>
+                  <span>Basic / 40%</span>
+                </div>
+                <div class="meter-segments" aria-hidden="true">
+                  <div class="meter-segment filled"></div>
+                  <div class="meter-segment filled"></div>
+                  <div class="meter-segment"></div>
+                  <div class="meter-segment"></div>
+                  <div class="meter-segment"></div>
+                </div>
+              </div>
+              <p class="skill-note">Modern ES6+ syntax, DOM manipulation, asynchronous callbacks, event-driven web behavior.</p>
+            </div>
+
+            <!-- PHP -->
+            <div class="skill-card">
+              <div class="skill-card-top">
+                <div class="skill-name-wrap">
+                  <div class="skill-icon-glyph">PHP</div>
+                  <h4 class="skill-name">PHP</h4>
+                </div>
+                <span class="badge badge-basic">Level: Basic</span>
+              </div>
+              <div class="skill-meter-wrap">
+                <div class="skill-meter-label-row">
+                  <span>Proficiency Indicator</span>
+                  <span>Basic / 40%</span>
+                </div>
+                <div class="meter-segments" aria-hidden="true">
+                  <div class="meter-segment filled"></div>
+                  <div class="meter-segment filled"></div>
+                  <div class="meter-segment"></div>
+                  <div class="meter-segment"></div>
+                  <div class="meter-segment"></div>
+                </div>
+              </div>
+              <p class="skill-note">Server-side scripting basics, HTTP request handling, form validation, dynamic HTML generation.</p>
+            </div>
+
+            <!-- C# -->
+            <div class="skill-card">
+              <div class="skill-card-top">
+                <div class="skill-name-wrap">
+                  <div class="skill-icon-glyph">C#</div>
+                  <h4 class="skill-name">C#</h4>
+                </div>
+                <span class="badge badge-basic">Level: Basic</span>
+              </div>
+              <div class="skill-meter-wrap">
+                <div class="skill-meter-label-row">
+                  <span>Proficiency Indicator</span>
+                  <span>Basic / 40%</span>
+                </div>
+                <div class="meter-segments" aria-hidden="true">
+                  <div class="meter-segment filled"></div>
+                  <div class="meter-segment filled"></div>
+                  <div class="meter-segment"></div>
+                  <div class="meter-segment"></div>
+                  <div class="meter-segment"></div>
+                </div>
+              </div>
+              <p class="skill-note">Foundations of .NET runtime, strongly typed syntax, OOP principles, and class modeling.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Category 2: Web Fundamentals (Markup & Styling) -->
+        <div class="skills-category-group" data-category="web-fund">
+          <h3 class="skills-category-title">
+            <span>Web Development Fundamentals (Markup &amp; Styling)</span>
+            <span class="category-count">2 Technologies</span>
+          </h3>
+          <div class="skills-grid">
+            <!-- HTML -->
+            <div class="skill-card">
+              <div class="skill-card-top">
+                <div class="skill-name-wrap">
+                  <div class="skill-icon-glyph">H5</div>
+                  <h4 class="skill-name">HTML</h4>
+                </div>
+                <span class="badge badge-basic">Level: Basic</span>
+              </div>
+              <div class="skill-meter-wrap">
+                <div class="skill-meter-label-row">
+                  <span>Proficiency Indicator</span>
+                  <span>Basic / 40%</span>
+                </div>
+                <div class="meter-segments" aria-hidden="true">
+                  <div class="meter-segment filled"></div>
+                  <div class="meter-segment filled"></div>
+                  <div class="meter-segment"></div>
+                  <div class="meter-segment"></div>
+                  <div class="meter-segment"></div>
+                </div>
+              </div>
+              <p class="skill-note">Semantic HTML5 tags, accessibility attributes (ARIA), forms, document structure, and SEO essentials.</p>
+            </div>
+
+            <!-- CSS -->
+            <div class="skill-card">
+              <div class="skill-card-top">
+                <div class="skill-name-wrap">
+                  <div class="skill-icon-glyph">CSS</div>
+                  <h4 class="skill-name">CSS</h4>
+                </div>
+                <span class="badge badge-basic">Level: Basic</span>
+              </div>
+              <div class="skill-meter-wrap">
+                <div class="skill-meter-label-row">
+                  <span>Proficiency Indicator</span>
+                  <span>Basic / 40%</span>
+                </div>
+                <div class="meter-segments" aria-hidden="true">
+                  <div class="meter-segment filled"></div>
+                  <div class="meter-segment filled"></div>
+                  <div class="meter-segment"></div>
+                  <div class="meter-segment"></div>
+                  <div class="meter-segment"></div>
+                </div>
+              </div>
+              <p class="skill-note">Box model, Flexbox, CSS Grid layouts, media queries for responsive design, custom variables.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Category 3: Backend & Databases -->
+        <div class="skills-category-group" data-category="backend-db">
+          <h3 class="skills-category-title">
+            <span>Backend Development &amp; Databases</span>
+            <span class="category-count">4 Technologies</span>
+          </h3>
+          <div class="skills-grid">
+            <!-- Node.js -->
+            <div class="skill-card">
+              <div class="skill-card-top">
+                <div class="skill-name-wrap">
+                  <div class="skill-icon-glyph">Node</div>
+                  <h4 class="skill-name">Node.js</h4>
+                </div>
+                <span class="badge badge-basic">Familiarity: Basic</span>
+              </div>
+              <div class="skill-meter-wrap">
+                <div class="skill-meter-label-row">
+                  <span>Proficiency Indicator</span>
+                  <span>Basic / 40%</span>
+                </div>
+                <div class="meter-segments" aria-hidden="true">
+                  <div class="meter-segment filled"></div>
+                  <div class="meter-segment filled"></div>
+                  <div class="meter-segment"></div>
+                  <div class="meter-segment"></div>
+                  <div class="meter-segment"></div>
+                </div>
+              </div>
+              <p class="skill-note">JavaScript server-side runtime, npm packages, HTTP module, asynchronous event loops.</p>
+            </div>
+
+            <!-- MySQL -->
+            <div class="skill-card">
+              <div class="skill-card-top">
+                <div class="skill-name-wrap">
+                  <div class="skill-icon-glyph">SQL</div>
+                  <h4 class="skill-name">MySQL</h4>
+                </div>
+                <span class="badge badge-basic">Familiarity: Basic</span>
+              </div>
+              <div class="skill-meter-wrap">
+                <div class="skill-meter-label-row">
+                  <span>Proficiency Indicator</span>
+                  <span>Basic / 40%</span>
+                </div>
+                <div class="meter-segments" aria-hidden="true">
+                  <div class="meter-segment filled"></div>
+                  <div class="meter-segment filled"></div>
+                  <div class="meter-segment"></div>
+                  <div class="meter-segment"></div>
+                  <div class="meter-segment"></div>
+                </div>
+              </div>
+              <p class="skill-note">Relational database design, DDL/DML queries, primary/foreign keys, joins, table normalization.</p>
+            </div>
+
+            <!-- MongoDB -->
+            <div class="skill-card">
+              <div class="skill-card-top">
+                <div class="skill-name-wrap">
+                  <div class="skill-icon-glyph">MDB</div>
+                  <h4 class="skill-name">MongoDB</h4>
+                </div>
+                <span class="badge badge-basic">Familiarity: Basic</span>
+              </div>
+              <div class="skill-meter-wrap">
+                <div class="skill-meter-label-row">
+                  <span>Proficiency Indicator</span>
+                  <span>Basic / 40%</span>
+                </div>
+                <div class="meter-segments" aria-hidden="true">
+                  <div class="meter-segment filled"></div>
+                  <div class="meter-segment filled"></div>
+                  <div class="meter-segment"></div>
+                  <div class="meter-segment"></div>
+                  <div class="meter-segment"></div>
+                </div>
+              </div>
+              <p class="skill-note">NoSQL document stores, JSON/BSON structures, collections, basic CRUD query operations.</p>
+            </div>
+
+            <!-- SQLite -->
+            <div class="skill-card">
+              <div class="skill-card-top">
+                <div class="skill-name-wrap">
+                  <div class="skill-icon-glyph">Lite</div>
+                  <h4 class="skill-name">SQLite</h4>
+                </div>
+                <span class="badge badge-basic">Familiarity: Basic</span>
+              </div>
+              <div class="skill-meter-wrap">
+                <div class="skill-meter-label-row">
+                  <span>Proficiency Indicator</span>
+                  <span>Basic / 40%</span>
+                </div>
+                <div class="meter-segments" aria-hidden="true">
+                  <div class="meter-segment filled"></div>
+                  <div class="meter-segment filled"></div>
+                  <div class="meter-segment"></div>
+                  <div class="meter-segment"></div>
+                  <div class="meter-segment"></div>
+                </div>
+              </div>
+              <p class="skill-note">Lightweight serverless SQL database, file-based storage, relational schema management.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Category 4: Data Science & AI -->
+        <div class="skills-category-group" data-category="data-science">
+          <h3 class="skills-category-title">
+            <span>Data Science &amp; Artificial Intelligence</span>
+            <span class="category-count">2 Libraries</span>
+          </h3>
+          <div class="skills-grid">
+            <!-- NumPy -->
+            <div class="skill-card">
+              <div class="skill-card-top">
+                <div class="skill-name-wrap">
+                  <div class="skill-icon-glyph">Num</div>
+                  <h4 class="skill-name">NumPy</h4>
+                </div>
+                <span class="badge badge-basic">Familiarity: Basic</span>
+              </div>
+              <div class="skill-meter-wrap">
+                <div class="skill-meter-label-row">
+                  <span>Proficiency Indicator</span>
+                  <span>Basic / 40%</span>
+                </div>
+                <div class="meter-segments" aria-hidden="true">
+                  <div class="meter-segment filled"></div>
+                  <div class="meter-segment filled"></div>
+                  <div class="meter-segment"></div>
+                  <div class="meter-segment"></div>
+                  <div class="meter-segment"></div>
+                </div>
+              </div>
+              <p class="skill-note">Multi-dimensional array structures, indexing, slicing, vector arithmetic, mathematical transformations.</p>
+            </div>
+
+            <!-- Pandas -->
+            <div class="skill-card">
+              <div class="skill-card-top">
+                <div class="skill-name-wrap">
+                  <div class="skill-icon-glyph">Pan</div>
+                  <h4 class="skill-name">Pandas</h4>
+                </div>
+                <span class="badge badge-basic">Familiarity: Basic</span>
+              </div>
+              <div class="skill-meter-wrap">
+                <div class="skill-meter-label-row">
+                  <span>Proficiency Indicator</span>
+                  <span>Basic / 40%</span>
+                </div>
+                <div class="meter-segments" aria-hidden="true">
+                  <div class="meter-segment filled"></div>
+                  <div class="meter-segment filled"></div>
+                  <div class="meter-segment"></div>
+                  <div class="meter-segment"></div>
+                  <div class="meter-segment"></div>
+                </div>
+              </div>
+              <p class="skill-note">DataFrames, Series manipulation, CSV reading, data cleaning, aggregation, basic analytics.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Category 5: Tools & Cloud Deployment -->
+        <div class="skills-category-group" data-category="tools-cloud">
+          <h3 class="skills-category-title">
+            <span>Development Tools &amp; Cloud Platforms</span>
+            <span class="category-count">7 Platforms</span>
+          </h3>
+          <div class="skills-grid">
+            <!-- GitHub -->
+            <div class="skill-card">
+              <div class="skill-card-top">
+                <div class="skill-name-wrap">
+                  <div class="skill-icon-glyph">GH</div>
+                  <h4 class="skill-name">GitHub</h4>
+                </div>
+                <span class="badge badge-basic">Familiarity: Basic</span>
+              </div>
+              <div class="skill-meter-wrap">
+                <div class="skill-meter-label-row">
+                  <span>Proficiency Indicator</span>
+                  <span>Basic / 40%</span>
+                </div>
+                <div class="meter-segments" aria-hidden="true">
+                  <div class="meter-segment filled"></div>
+                  <div class="meter-segment filled"></div>
+                  <div class="meter-segment"></div>
+                  <div class="meter-segment"></div>
+                  <div class="meter-segment"></div>
+                </div>
+              </div>
+              <p class="skill-note">Git repositories, version tracking, commits, branches, pull requests, collaboration workflow.</p>
+            </div>
+
+            <!-- VS Code -->
+            <div class="skill-card">
+              <div class="skill-card-top">
+                <div class="skill-name-wrap">
+                  <div class="skill-icon-glyph">VSC</div>
+                  <h4 class="skill-name">Visual Studio Code</h4>
+                </div>
+                <span class="badge badge-basic">Familiarity: Basic</span>
+              </div>
+              <div class="skill-meter-wrap">
+                <div class="skill-meter-label-row">
+                  <span>Proficiency Indicator</span>
+                  <span>Basic / 40%</span>
+                </div>
+                <div class="meter-segments" aria-hidden="true">
+                  <div class="meter-segment filled"></div>
+                  <div class="meter-segment filled"></div>
+                  <div class="meter-segment"></div>
+                  <div class="meter-segment"></div>
+                  <div class="meter-segment"></div>
+                </div>
+              </div>
+              <p class="skill-note">Workspace configuration, debugging tools, extensions for C/C++, Java, and web development.</p>
+            </div>
+
+            <!-- Google Antigravity -->
+            <div class="skill-card">
+              <div class="skill-card-top">
+                <div class="skill-name-wrap">
+                  <div class="skill-icon-glyph">AG</div>
+                  <h4 class="skill-name">Google Antigravity</h4>
+                </div>
+                <span class="badge badge-basic">Familiarity: Basic</span>
+              </div>
+              <div class="skill-meter-wrap">
+                <div class="skill-meter-label-row">
+                  <span>Proficiency Indicator</span>
+                  <span>Basic / 40%</span>
+                </div>
+                <div class="meter-segments" aria-hidden="true">
+                  <div class="meter-segment filled"></div>
+                  <div class="meter-segment filled"></div>
+                  <div class="meter-segment"></div>
+                  <div class="meter-segment"></div>
+                  <div class="meter-segment"></div>
+                </div>
+              </div>
+              <p class="skill-note">Next-generation agentic developer workflow, AI-driven development environment and IDE tooling.</p>
+            </div>
+
+            <!-- Vercel -->
+            <div class="skill-card">
+              <div class="skill-card-top">
+                <div class="skill-name-wrap">
+                  <div class="skill-icon-glyph">▲</div>
+                  <h4 class="skill-name">Vercel</h4>
+                </div>
+                <span class="badge badge-basic">Familiarity: Basic</span>
+              </div>
+              <div class="skill-meter-wrap">
+                <div class="skill-meter-label-row">
+                  <span>Proficiency Indicator</span>
+                  <span>Basic / 40%</span>
+                </div>
+                <div class="meter-segments" aria-hidden="true">
+                  <div class="meter-segment filled"></div>
+                  <div class="meter-segment filled"></div>
+                  <div class="meter-segment"></div>
+                  <div class="meter-segment"></div>
+                  <div class="meter-segment"></div>
+                </div>
+              </div>
+              <p class="skill-note">Static and web deployment, Git integration, instant previews, edge-network hosting.</p>
+            </div>
+
+            <!-- AWS -->
+            <div class="skill-card">
+              <div class="skill-card-top">
+                <div class="skill-name-wrap">
+                  <div class="skill-icon-glyph">AWS</div>
+                  <h4 class="skill-name">AWS</h4>
+                </div>
+                <span class="badge badge-basic">Familiarity: Basic</span>
+              </div>
+              <div class="skill-meter-wrap">
+                <div class="skill-meter-label-row">
+                  <span>Proficiency Indicator</span>
+                  <span>Basic / 40%</span>
+                </div>
+                <div class="meter-segments" aria-hidden="true">
+                  <div class="meter-segment filled"></div>
+                  <div class="meter-segment filled"></div>
+                  <div class="meter-segment"></div>
+                  <div class="meter-segment"></div>
+                  <div class="meter-segment"></div>
+                </div>
+              </div>
+              <p class="skill-note">Cloud computing fundamentals, compute instances, cloud storage concepts, IAM principles.</p>
+            </div>
+
+            <!-- Google Cloud -->
+            <div class="skill-card">
+              <div class="skill-card-top">
+                <div class="skill-name-wrap">
+                  <div class="skill-icon-glyph">GCP</div>
+                  <h4 class="skill-name">Google Cloud</h4>
+                </div>
+                <span class="badge badge-basic">Familiarity: Basic</span>
+              </div>
+              <div class="skill-meter-wrap">
+                <div class="skill-meter-label-row">
+                  <span>Proficiency Indicator</span>
+                  <span>Basic / 40%</span>
+                </div>
+                <div class="meter-segments" aria-hidden="true">
+                  <div class="meter-segment filled"></div>
+                  <div class="meter-segment filled"></div>
+                  <div class="meter-segment"></div>
+                  <div class="meter-segment"></div>
+                  <div class="meter-segment"></div>
+                </div>
+              </div>
+              <p class="skill-note">Cloud console navigation, managed services, serverless computing overview, API services.</p>
+            </div>
+
+            <!-- Microsoft Azure -->
+            <div class="skill-card">
+              <div class="skill-card-top">
+                <div class="skill-name-wrap">
+                  <div class="skill-icon-glyph">Az</div>
+                  <h4 class="skill-name">Microsoft Azure</h4>
+                </div>
+                <span class="badge badge-basic">Familiarity: Basic</span>
+              </div>
+              <div class="skill-meter-wrap">
+                <div class="skill-meter-label-row">
+                  <span>Proficiency Indicator</span>
+                  <span>Basic / 40%</span>
+                </div>
+                <div class="meter-segments" aria-hidden="true">
+                  <div class="meter-segment filled"></div>
+                  <div class="meter-segment filled"></div>
+                  <div class="meter-segment"></div>
+                  <div class="meter-segment"></div>
+                  <div class="meter-segment"></div>
+                </div>
+              </div>
+              <p class="skill-note">Cloud infrastructure, resource groups, virtual machines, cloud database overview.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Category 6: Core Computer Science Competencies -->
+        <div class="skills-category-group" data-category="core-cs">
+          <h3 class="skills-category-title">
+            <span>Additional Technical Skills &amp; Foundational Engineering</span>
+            <span class="category-count">4 Competencies</span>
+          </h3>
+          <div class="skills-grid">
+            <!-- OOP -->
+            <div class="skill-card">
+              <div class="skill-card-top">
+                <div class="skill-name-wrap">
+                  <div class="skill-icon-glyph">OOP</div>
+                  <h4 class="skill-name">Object-Oriented Programming</h4>
+                </div>
+                <span class="badge badge-basic">Familiarity: Basic</span>
+              </div>
+              <div class="skill-meter-wrap">
+                <div class="skill-meter-label-row">
+                  <span>Proficiency Indicator</span>
+                  <span>Basic / 40%</span>
+                </div>
+                <div class="meter-segments" aria-hidden="true">
+                  <div class="meter-segment filled"></div>
+                  <div class="meter-segment filled"></div>
+                  <div class="meter-segment"></div>
+                  <div class="meter-segment"></div>
+                  <div class="meter-segment"></div>
+                </div>
+              </div>
+              <p class="skill-note">Encapsulation, inheritance, polymorphism, abstraction, modular reusable software design.</p>
+            </div>
+
+            <!-- Problem Solving -->
+            <div class="skill-card">
+              <div class="skill-card-top">
+                <div class="skill-name-wrap">
+                  <div class="skill-icon-glyph">PS</div>
+                  <h4 class="skill-name">Problem Solving</h4>
+                </div>
+                <span class="badge badge-basic">Familiarity: Basic</span>
+              </div>
+              <div class="skill-meter-wrap">
+                <div class="skill-meter-label-row">
+                  <span>Proficiency Indicator</span>
+                  <span>Basic / 40%</span>
+                </div>
+                <div class="meter-segments" aria-hidden="true">
+                  <div class="meter-segment filled"></div>
+                  <div class="meter-segment filled"></div>
+                  <div class="meter-segment"></div>
+                  <div class="meter-segment"></div>
+                  <div class="meter-segment"></div>
+                </div>
+              </div>
+              <p class="skill-note">Analytical breakdown of problems, logical flowcharts, algorithmic thinking, edge cases.</p>
+            </div>
+
+            <!-- DSA -->
+            <div class="skill-card">
+              <div class="skill-card-top">
+                <div class="skill-name-wrap">
+                  <div class="skill-icon-glyph">DSA</div>
+                  <h4 class="skill-name">Data Structures and Algorithms</h4>
+                </div>
+                <span class="badge badge-basic">Familiarity: Basic</span>
+              </div>
+              <div class="skill-meter-wrap">
+                <div class="skill-meter-label-row">
+                  <span>Proficiency Indicator</span>
+                  <span>Basic / 40%</span>
+                </div>
+                <div class="meter-segments" aria-hidden="true">
+                  <div class="meter-segment filled"></div>
+                  <div class="meter-segment filled"></div>
+                  <div class="meter-segment"></div>
+                  <div class="meter-segment"></div>
+                  <div class="meter-segment"></div>
+                </div>
+              </div>
+              <p class="skill-note">Linear data structures (arrays, linked lists, stacks, queues), sorting algorithms, searching.</p>
+            </div>
+
+            <!-- Responsive Web Design -->
+            <div class="skill-card">
+              <div class="skill-card-top">
+                <div class="skill-name-wrap">
+                  <div class="skill-icon-glyph">RWD</div>
+                  <h4 class="skill-name">Responsive Web Design</h4>
+                </div>
+                <span class="badge badge-basic">Familiarity: Basic</span>
+              </div>
+              <div class="skill-meter-wrap">
+                <div class="skill-meter-label-row">
+                  <span>Proficiency Indicator</span>
+                  <span>Basic / 40%</span>
+                </div>
+                <div class="meter-segments" aria-hidden="true">
+                  <div class="meter-segment filled"></div>
+                  <div class="meter-segment filled"></div>
+                  <div class="meter-segment"></div>
+                  <div class="meter-segment"></div>
+                  <div class="meter-segment"></div>
+                </div>
+              </div>
+              <p class="skill-note">Mobile-first fluid layouts, flexible grids, media breakpoints, touch-friendly UI considerations.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         5. Academic Labs & Learning Roadmap (Projects Section)
+         ========================================================================= -->
+    <section id="learning-journey" class="section learning-section" aria-labelledby="journey-title">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Active Coursework &amp; Academic Artifacts</span>
+          <h2 id="journey-title" class="section-title">Learning Journey &amp; Active Explorations</h2>
+          <p class="section-subtitle">
+            As a first-year MCA student at Poornaprajna Institute of Management, Udupi, my work focuses on academic lab experiments, foundational coding assignments, and upcoming curricular roadmaps.
+          </p>
+        </div>
+
+        <!-- Filter Tabs -->
+        <div class="journey-controls">
+          <div class="journey-tabs" role="tablist" aria-label="Learning Journey category filter">
+            <button type="button" class="journey-tab active" data-journey-filter="all">All Explorations (6)</button>
+            <button type="button" class="journey-tab" data-journey-filter="lab">Academic Labs (3)</button>
+            <button type="button" class="journey-tab" data-journey-filter="practical">Practical Initiatives (1)</button>
+            <button type="button" class="journey-tab" data-journey-filter="roadmap">Upcoming Roadmap (2)</button>
+          </div>
+          <span class="badge badge-blue">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="10"></circle>
+              <polyline points="12 6 12 12 14 14"></polyline>
+            </svg>
+            MCA 2026–2028 Curriculum
+          </span>
+        </div>
+
+        <!-- Cards Grid -->
+        <div class="learning-grid">
+          <!-- Card 1: C/C++ Data Structures Lab -->
+          <article class="learning-card" data-category="lab">
+            <div class="learning-card-top">
+              <div class="learning-card-meta">
+                <span class="learning-type">Academic Lab Experiment</span>
+                <span class="badge badge-green">In Progress</span>
+              </div>
+              <h3 class="learning-title">Data Structures &amp; Algorithm Foundations in C &amp; C++</h3>
+              <p class="learning-desc">
+                Laboratory implementations of linear data structures: singly and doubly linked lists, stack evaluation (infix to postfix), circular queues, and algorithm performance comparisons using C and C++.
+              </p>
+              <div class="learning-tags">
+                <span class="learning-tag">C</span>
+                <span class="learning-tag">C++</span>
+                <span class="learning-tag">Pointers</span>
+                <span class="learning-tag">Linked Lists</span>
+                <span class="learning-tag">DSA Lab</span>
+              </div>
+            </div>
+            <div class="learning-card-footer">
+              <span class="learning-inst">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                </svg>
+                PIM Udupi • MCA Lab
+              </span>
+              <span>Semester 1</span>
+            </div>
+          </article>
+
+          <!-- Card 2: Java OOP Lab -->
+          <article class="learning-card" data-category="lab">
+            <div class="learning-card-top">
+              <div class="learning-card-meta">
+                <span class="learning-type">Academic Lab Experiment</span>
+                <span class="badge badge-green">In Progress</span>
+              </div>
+              <h3 class="learning-title">Object-Oriented Programming &amp; Class Hierarchy in Java</h3>
+              <p class="learning-desc">
+                Rigorous practical exercises exploring Java fundamentals: class relationships, multiple inheritance simulation via interfaces, custom exception handlers, and standard file I/O operations.
+              </p>
+              <div class="learning-tags">
+                <span class="learning-tag">Java</span>
+                <span class="learning-tag">OOP</span>
+                <span class="learning-tag">Interfaces</span>
+                <span class="learning-tag">Exception Handling</span>
+                <span class="learning-tag">VS Code</span>
+              </div>
+            </div>
+            <div class="learning-card-footer">
+              <span class="learning-inst">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                </svg>
+                PIM Udupi • MCA Lab
+              </span>
+              <span>Semester 1</span>
+            </div>
+          </article>
+
+          <!-- Card 3: Database Management Systems Lab -->
+          <article class="learning-card" data-category="lab">
+            <div class="learning-card-top">
+              <div class="learning-card-meta">
+                <span class="learning-type">Academic Lab Experiment</span>
+                <span class="badge badge-green">In Progress</span>
+              </div>
+              <h3 class="learning-title">Relational Schema Modeling &amp; SQL Querying</h3>
+              <p class="learning-desc">
+                Entity-Relationship (ER) diagram mapping to normalized relational schemas. Executing complex DDL/DML statements, table constraints, aggregate functions, and nested subqueries on MySQL and SQLite.
+              </p>
+              <div class="learning-tags">
+                <span class="learning-tag">MySQL</span>
+                <span class="learning-tag">SQLite</span>
+                <span class="learning-tag">SQL</span>
+                <span class="learning-tag">Normalization</span>
+                <span class="learning-tag">DBMS Lab</span>
+              </div>
+            </div>
+            <div class="learning-card-footer">
+              <span class="learning-inst">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                </svg>
+                PIM Udupi • DBMS Lab
+              </span>
+              <span>Semester 1</span>
+            </div>
+          </article>
+
+          <!-- Card 4: Web Engineering Practical -->
+          <article class="learning-card" data-category="practical">
+            <div class="learning-card-top">
+              <div class="learning-card-meta">
+                <span class="learning-type">Practical Initiative</span>
+                <span class="badge badge-blue">Active Exploration</span>
+              </div>
+              <h3 class="learning-title">Responsive Web Engineering &amp; Accessible Interface Architecture</h3>
+              <p class="learning-desc">
+                Designing and constructing semantic, high-performance web applications adhering to WCAG 2.1 AA accessibility guidelines, pure CSS custom property design systems, and responsive layouts.
+              </p>
+              <div class="learning-tags">
+                <span class="learning-tag">HTML5</span>
+                <span class="learning-tag">CSS3</span>
+                <span class="learning-tag">JavaScript</span>
+                <span class="learning-tag">Accessibility (a11y)</span>
+                <span class="learning-tag">Responsive Design</span>
+              </div>
+            </div>
+            <div class="learning-card-footer">
+              <span class="learning-inst">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M12 20h9"></path>
+                  <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path>
+                </svg>
+                Self-Paced Practical Initiative
+              </span>
+              <span>2026</span>
+            </div>
+          </article>
+
+          <!-- Card 5: Upcoming Roadmap 1 - Full Stack -->
+          <article class="learning-card" data-category="roadmap">
+            <div class="learning-card-top">
+              <div class="learning-card-meta">
+                <span class="learning-type">Upcoming Curricular Roadmap</span>
+                <span class="badge badge-amber">Planned Roadmap</span>
+              </div>
+              <h3 class="learning-title">Full-Stack Web Development &amp; RESTful APIs with Node.js</h3>
+              <p class="learning-desc">
+                Planned technical milestone: deepening Node.js backend architecture, routing, middleware integration, connecting with MongoDB document databases, and deploying on cloud infrastructure (Vercel, AWS).
+              </p>
+              <div class="learning-tags">
+                <span class="learning-tag">Node.js</span>
+                <span class="learning-tag">MongoDB</span>
+                <span class="learning-tag">REST APIs</span>
+                <span class="learning-tag">Vercel</span>
+                <span class="learning-tag">Cloud</span>
+              </div>
+            </div>
+            <div class="learning-card-footer">
+              <span class="learning-inst">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <polyline points="12 6 12 12 14 14"></polyline>
+                </svg>
+                Semester 2 Roadmap
+              </span>
+              <span>2026 – 2027</span>
+            </div>
+          </article>
+
+          <!-- Card 6: Upcoming Roadmap 2 - Data Science -->
+          <article class="learning-card" data-category="roadmap">
+            <div class="learning-card-top">
+              <div class="learning-card-meta">
+                <span class="learning-type">Upcoming Curricular Roadmap</span>
+                <span class="badge badge-amber">Planned Roadmap</span>
+              </div>
+              <h3 class="learning-title">Data Analysis, Tabular Modeling &amp; AI Explorations</h3>
+              <p class="learning-desc">
+                Upcoming technical milestone: applying NumPy and Pandas for empirical data analysis, statistical operations, data hygiene pipelines, and foundational artificial intelligence models.
+              </p>
+              <div class="learning-tags">
+                <span class="learning-tag">NumPy</span>
+                <span class="learning-tag">Pandas</span>
+                <span class="learning-tag">Data Science</span>
+                <span class="learning-tag">AI Foundations</span>
+                <span class="learning-tag">Python</span>
+              </div>
+            </div>
+            <div class="learning-card-footer">
+              <span class="learning-inst">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <polyline points="12 6 12 12 14 14"></polyline>
+                </svg>
+                Semester 3 Roadmap
+              </span>
+              <span>2027</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         6. Certifications & Honors
+         ========================================================================= -->
+    <section id="honors" class="section" aria-labelledby="honors-title">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Recognitions &amp; Competitive Excellence</span>
+          <h2 id="honors-title" class="section-title">Honors &amp; Achievements</h2>
+          <p class="section-subtitle">
+            Demonstrating agility, analytical aptitude, and competitive technical knowledge in academic contests.
+          </p>
+        </div>
+
+        <div class="honors-grid">
+          <div class="honor-card">
+            <div class="honor-trophy-wrap" aria-hidden="true">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"></path>
+                <path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"></path>
+                <path d="M4 22h16"></path>
+                <path d="M10 14.66V17c0 .55-.45 1-1 1H7v4h10v-4h-2c-.55 0-1-.45-1-1v-2.34"></path>
+                <path d="M4 4h16v7a8 8 0 0 1-16 0V4z"></path>
+              </svg>
+            </div>
+            <div class="honor-content">
+              <div class="honor-meta">
+                <span class="badge badge-amber">2nd Place Winner</span>
+                <span class="badge badge-blue">Year: 2026</span>
+              </div>
+              <h3 class="honor-title">sahyadri whiz quiz 2026</h3>
+              <p class="honor-desc">
+                Secured <strong>2nd Place</strong> at the prestigious <strong>Sahyadri Fest</strong>. Successfully solved competitive trivia, algorithmic puzzles, and technical challenges among student delegates across Karnataka.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         7. Interests, Ambitions & Target Roles
+         ========================================================================= -->
+    <section id="interests" class="section" aria-labelledby="interests-title">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Career Trajectory &amp; Focus Areas</span>
+          <h2 id="interests-title" class="section-title">Interests &amp; Target Roles</h2>
+          <p class="section-subtitle">
+            Prepared to channel academic dedication into impactful internships, graduate trainee openings, and software engineering roles.
+          </p>
+        </div>
+
+        <div class="roles-interests-grid">
+          <!-- Target Roles Card -->
+          <div class="roles-card">
+            <h3 class="card-heading">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="role-icon" aria-hidden="true">
+                <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+              </svg>
+              <span>Target Roles</span>
+            </h3>
+            <p style="color: var(--text-secondary); font-size: 0.95rem;">
+              Actively targeting early-career software engineering, web development, and technical internship roles:
+            </p>
+            <div class="roles-list">
+              <div class="role-badge-box">
+                <span class="role-icon">▹</span>
+                <span>Software Developer</span>
+              </div>
+              <div class="role-badge-box">
+                <span class="role-icon">▹</span>
+                <span>Web Developer</span>
+              </div>
+              <div class="role-badge-box">
+                <span class="role-icon">▹</span>
+                <span>Frontend Developer</span>
+              </div>
+              <div class="role-badge-box">
+                <span class="role-icon">▹</span>
+                <span>Backend Developer</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Primary Areas of Interest Card -->
+          <div class="roles-card">
+            <h3 class="card-heading">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="role-icon" aria-hidden="true">
+                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+              </svg>
+              <span>Primary Technical Interests</span>
+            </h3>
+            <p style="color: var(--text-secondary); font-size: 0.95rem;">
+              Core technological domains driving continuous study and hands-on experimentation:
+            </p>
+            <div class="interests-cloud">
+              <span class="interest-tag">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+                Web Development
+              </span>
+              <span class="interest-tag">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                  <line x1="8" y1="21" x2="16" y2="21"></line>
+                  <line x1="12" y1="17" x2="12" y2="21"></line>
+                </svg>
+                Full-Stack Development
+              </span>
+              <span class="interest-tag">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+                </svg>
+                Software Engineering
+              </span>
+              <span class="interest-tag">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M18 20V10"></path>
+                  <path d="M12 20V4"></path>
+                  <path d="M6 20v-6"></path>
+                </svg>
+                Data Science
+              </span>
+              <span class="interest-tag">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M12 2a10 10 0 1 0 10 10H12V2z"></path>
+                  <path d="M12 12L2.1 7.1"></path>
+                  <path d="M12 12v9.9"></path>
+                </svg>
+                Artificial Intelligence
+              </span>
+            </div>
+
+            <!-- Hobbies Sub-section -->
+            <div class="hobbies-section">
+              <div class="hobbies-title">Hobbies &amp; Extracurricular Passions</div>
+              <div class="hobbies-row">
+                <span class="hobby-pill">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M9 18V5l12-2v13"></path>
+                    <circle cx="6" cy="18" r="3"></circle>
+                    <circle cx="18" cy="16" r="3"></circle>
+                  </svg>
+                  Dance
+                </span>
+                <span class="hobby-pill">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <circle cx="12" cy="12" r="2"></circle>
+                    <path d="M16.24 7.76a6 6 0 0 1 0 8.49m-8.48-.01a6 6 0 0 1 0-8.49m11.31-2.82a10 10 0 0 1 0 14.14m-14.14 0a10 10 0 0 1 0-14.14"></path>
+                  </svg>
+                  Watching Podcasts
+                </span>
+                <span class="hobby-pill">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="2" y1="12" x2="22" y2="12"></line>
+                    <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                  </svg>
+                  Languages: English, Kannada
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         8. Contact & Social Network Section
+         ========================================================================= -->
+    <section id="contact" class="section" aria-labelledby="contact-title">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Direct Communication</span>
+          <h2 id="contact-title" class="section-title">Get in Touch</h2>
+          <p class="section-subtitle">
+            Open to internship inquiries, academic collaborations, mentorship, and software development opportunities.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact Info Column -->
+          <div class="contact-info-panel">
+            <p class="contact-lead">
+              Feel free to reach out directly via email or telephone. I am eager to discuss internship openings, graduate programs, or student developer initiatives.
+            </p>
+
+            <div class="contact-channels">
+              <!-- Email Card -->
+              <div class="channel-card">
+                <div class="channel-main">
+                  <div class="channel-icon" aria-hidden="true">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                      <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                  </div>
+                  <div class="channel-details">
+                    <span class="channel-label">Email Address</span>
+                    <a href="mailto:thrashashetty56@gmail.com" class="channel-value">thrashashetty56@gmail.com</a>
+                  </div>
+                </div>
+                <div class="channel-actions">
+                  <a href="mailto:thrashashetty56@gmail.com" class="channel-btn" title="Compose Email" aria-label="Compose email to Thrasha">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <line x1="22" y1="2" x2="11" y2="13"></line>
+                      <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                    </svg>
+                  </a>
+                  <button type="button" class="channel-btn" onclick="copyToClipboard('thrashashetty56@gmail.com', 'Email Address')" title="Copy Email" aria-label="Copy email address to clipboard">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                      <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+
+              <!-- Phone Card -->
+              <div class="channel-card">
+                <div class="channel-main">
+                  <div class="channel-icon" aria-hidden="true">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                    </svg>
+                  </div>
+                  <div class="channel-details">
+                    <span class="channel-label">Telephone</span>
+                    <a href="tel:9353178498" class="channel-value">+91 9353178498</a>
+                  </div>
+                </div>
+                <div class="channel-actions">
+                  <a href="tel:9353178498" class="channel-btn" title="Call Thrasha" aria-label="Call Thrasha on telephone">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <path d="M15.05 5A5 5 0 0 1 19 8.95M15.05 1A9 9 0 0 1 23 8.94"></path>
+                      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                    </svg>
+                  </a>
+                  <button type="button" class="channel-btn" onclick="copyToClipboard('9353178498', 'Phone Number')" title="Copy Phone Number" aria-label="Copy phone number to clipboard">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                      <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+
+              <!-- Location Banner Card -->
+              <div class="channel-card">
+                <div class="channel-main">
+                  <div class="channel-icon" aria-hidden="true">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                      <circle cx="12" cy="10" r="3"></circle>
+                    </svg>
+                  </div>
+                  <div class="channel-details">
+                    <span class="channel-label">Academic Vicinity &amp; Location</span>
+                    <span class="channel-value">Udupi, Karnataka, India</span>
+                  </div>
+                </div>
+                <span class="badge badge-blue">PIM Udupi</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Quick Message Composer -->
+          <div class="contact-form-card">
+            <h3 style="font-size: 1.25rem; font-weight: 700; color: var(--text-highlight);">
+              Send a Direct Message
+            </h3>
+            <p style="font-size: 0.88rem; color: var(--text-secondary); margin-top: -10px;">
+              Fill in your details below to instantly draft an email message directly to Thrasha.
+            </p>
+
+            <form id="quick-contact-form">
+              <div class="form-group">
+                <label for="contact-name" class="form-label">Your Name</label>
+                <input type="text" id="contact-name" class="form-input" placeholder="e.g. Recruiter / Coordinator Name" required>
+              </div>
+
+              <div class="form-group" style="margin-top: 12px;">
+                <label for="contact-email" class="form-label">Your Email</label>
+                <input type="email" id="contact-email" class="form-input" placeholder="e.g. name@company.org" required>
+              </div>
+
+              <div class="form-group" style="margin-top: 12px;">
+                <label for="contact-subject" class="form-label">Subject</label>
+                <input type="text" id="contact-subject" class="form-input" placeholder="e.g. MCA Internship Opportunity" value="Opportunity / Inquiring via Portfolio">
+              </div>
+
+              <div class="form-group" style="margin-top: 12px;">
+                <label for="contact-message" class="form-label">Message</label>
+                <textarea id="contact-message" class="form-textarea" placeholder="Hello Thrasha, I reviewed your portfolio and would like to connect regarding..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="margin-top: 16px; width: 100%;">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+                <span>Draft Email to Thrasha</span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- =========================================================================
+       9. Footer
+       ========================================================================= -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-top">
+        <div>
+          <div class="brand-mark" style="margin-bottom: 6px;">
+            <span class="brand-glyph" aria-hidden="true">&lt;T/&gt;</span>
+            <span class="brand-name">Thrasha</span>
+          </div>
+          <p class="footer-attribution">
+            First-Year Master of Computer Applications (MCA) Student<br>
+            Poornaprajna Institute of Management (PIM), Udupi, Karnataka (2026 – 2028).
+          </p>
+        </div>
+
+        <div class="footer-social-links">
+          <!-- GitHub Link -->
+          <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-link" title="GitHub" aria-label="Visit GitHub Profile (opens in new window)">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+            </svg>
+          </a>
+
+          <!-- LinkedIn Link -->
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-link" title="LinkedIn" aria-label="Visit LinkedIn Profile (opens in new window)">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+              <rect x="2" y="9" width="4" height="12"></rect>
+              <circle cx="4" cy="4" r="2"></circle>
+            </svg>
+          </a>
+
+          <!-- Direct Email Link -->
+          <a href="mailto:thrashashetty56@gmail.com" class="social-link" title="Direct Email" aria-label="Send direct email to Thrasha">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+              <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 Thrasha. All rights reserved. • Built with modern accessible web standards.
+        </div>
+        <div>
+          Affiliated with <a href="https://varsync.in" target="_blank" rel="noopener noreferrer" style="color: var(--brand-blue-light);">VarSync</a> &amp; Poornaprajna Institute of Management.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- =========================================================================
+       10. Resume Modal (Printable & Downloadable CV)
+       ========================================================================= -->
+  <div id="resume-modal" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-cv-title" aria-hidden="true">
+    <div class="modal-container">
+      <div class="modal-header">
+        <h3 id="modal-cv-title" class="modal-title">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+            <polyline points="14 2 14 8 20 8"></polyline>
+          </svg>
+          <span>Curriculum Vitae • Thrasha</span>
+        </h3>
+        <div class="modal-actions">
+          <button type="button" id="print-resume-btn" class="btn btn-secondary btn-sm" title="Print or save as PDF">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <polyline points="6 9 6 2 18 2 18 9"></polyline>
+              <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
+              <rect x="6" y="14" width="12" height="8"></rect>
+            </svg>
+            <span>Print / PDF</span>
+          </button>
+          <button type="button" id="download-md-resume-btn" class="btn btn-secondary btn-sm" title="Download Markdown format">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+              <polyline points="7 10 12 15 17 10"></polyline>
+              <line x1="12" y1="15" x2="12" y2="3"></line>
+            </svg>
+            <span>Download .MD</span>
+          </button>
+          <button type="button" class="modal-close-btn close-resume-btn" aria-label="Close resume modal">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <line x1="18" y1="6" x2="6" y2="18"></line>
+              <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="modal-body">
+        <div class="cv-document">
+          <div class="cv-header-block">
+            <div class="cv-header-content">
+              <img src="assets/thrasha.jpg" alt="Thrasha" class="cv-avatar-img" width="72" height="90">
+              <div class="cv-text-wrap">
+                <h1 class="cv-name">Thrasha</h1>
+                <div class="cv-title">First-Year MCA Student &amp; Aspiring Software Developer</div>
+                <div class="cv-contact-row">
+                  <span>📍 Udupi, Karnataka, India</span>
+                  <span>📧 thrashashetty56@gmail.com</span>
+                  <span>📞 +91 9353178498</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <h4 class="cv-section-title">Professional Statement</h4>
+          <p style="color: var(--text-secondary); line-height: 1.6;">
+            Aspiring Software Developer passionate about programming languages, web engineering, and foundational computing. Currently advancing practical software development skills through academic rigor and real-world initiatives.
+          </p>
+
+          <h4 class="cv-section-title">Academic Education</h4>
+          <div class="cv-item">
+            <div class="cv-item-title-row">
+              <span style="font-size: 1.05rem; font-weight: 700;">Master of Computer Applications (MCA)</span>
+              <span class="cv-item-dates">2026 – 2028 (Pursuing)</span>
+            </div>
+            <div class="cv-item-school">Poornaprajna Institute of Management (PIM), Udupi, Karnataka</div>
+            <p style="font-size: 0.88rem; color: var(--text-secondary); margin-top: 4px;">
+              Specialization: Computer Applications &amp; Software Development. Active coursework in Data Structures, Algorithms, Object-Oriented Programming, and Database Systems.
+            </p>
+          </div>
+
+          <h4 class="cv-section-title">Verified Technical Skills &amp; Proficiency</h4>
+          <ul style="list-style: disc; padding-left: 20px; font-size: 0.88rem; color: var(--text-secondary); line-height: 1.7;">
+            <li><strong>Core Programming Languages:</strong> C (Basic), C++ (Basic), Java (Basic), JavaScript (Basic), PHP (Basic), C# (Basic)</li>
+            <li><strong>Web Development Fundamentals:</strong> HTML (Basic), CSS (Basic)</li>
+            <li><strong>Backend &amp; Databases:</strong> Node.js (Basic), MySQL (Basic), MongoDB (Basic), SQLite (Basic)</li>
+            <li><strong>Tools &amp; Cloud:</strong> GitHub, VS Code, Google Antigravity, Vercel, AWS, Google Cloud, Microsoft Azure (All Basic Familiarity)</li>
+            <li><strong>Data Science &amp; AI:</strong> NumPy (Basic), Pandas (Basic)</li>
+            <li><strong>Core Competencies:</strong> Object-Oriented Programming, Problem Solving, Data Structures and Algorithms, Responsive Web Design</li>
+          </ul>
+
+          <h4 class="cv-section-title">Academic Labs &amp; Explorations</h4>
+          <ul style="list-style: disc; padding-left: 20px; font-size: 0.88rem; color: var(--text-secondary); line-height: 1.7;">
+            <li><strong>C &amp; C++ Data Structures Lab (PIM Udupi):</strong> Implementation of linked lists, stacks, queues, and search/sort algorithms.</li>
+            <li><strong>Java Object-Oriented Programming Lab (PIM Udupi):</strong> Encapsulation, inheritance, polymorphism, and stream handling.</li>
+            <li><strong>DBMS &amp; Relational Schema Design:</strong> SQL schema creation, normalization, complex relational queries on MySQL &amp; SQLite.</li>
+            <li><strong>Responsive Web Architecture:</strong> Accessible, semantic responsive layouts using HTML5, CSS3, and JavaScript.</li>
+          </ul>
+
+          <h4 class="cv-section-title">Honors &amp; Achievements</h4>
+          <div class="cv-item">
+            <div class="cv-item-title-row">
+              <span style="font-weight: 700;">sahyadri whiz quiz 2026</span>
+              <span class="cv-item-dates">2026</span>
+            </div>
+            <p style="font-size: 0.88rem; color: var(--text-secondary);">
+              Secured <strong>2nd Place</strong> at Sahyadri Fest in technical quiz competition.
+            </p>
+          </div>
+
+          <h4 class="cv-section-title">Target Roles &amp; Interests</h4>
+          <p style="font-size: 0.88rem; color: var(--text-secondary); line-height: 1.6;">
+            <strong>Target Roles:</strong> Software Developer, Web Developer, Frontend Developer, Backend Developer.<br>
+            <strong>Primary Interests:</strong> Web Development, Full-Stack Development, Software Engineering, Data Science, Artificial Intelligence.<br>
+            <strong>Natural Languages:</strong> English, Kannada.<br>
+            <strong>Hobbies:</strong> Dance, Watching Podcasts.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- =========================================================================
+       11. Toast Notifications & Floating Controls
+       ========================================================================= -->
+  <div id="toast-container" class="toast-container" aria-live="polite"></div>
+
+  <button type="button" id="back-to-top-btn" class="back-to-top-btn" aria-label="Back to top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+  <!-- Core JavaScript Application -->
+  <script src="js/app.js"></script>
+</body>
+</html>
